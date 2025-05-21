@@ -20,15 +20,5 @@ module ActiveShipping
   end
 end
 
-ActiveShipping::Carriers.register :BenchmarkCarrier, 'active_shipping/carriers/benchmark_carrier'
-ActiveShipping::Carriers.register :BogusCarrier,     'active_shipping/carriers/bogus_carrier'
 ActiveShipping::Carriers.register :USPS,             'active_shipping/carriers/usps'
 ActiveShipping::Carriers.register :USPSReturns,      'active_shipping/carriers/usps_returns'
-ActiveShipping::Carriers.register :FedEx,            'active_shipping/carriers/fedex'
-ActiveShipping::Carriers.register :Shipwire,         'active_shipping/carriers/shipwire'
-ActiveShipping::Carriers.register :Kunaki,           'active_shipping/carriers/kunaki'
-ActiveShipping::Carriers.register :CanadaPost,       'active_shipping/carriers/canada_post'
-ActiveShipping::Carriers.register :NewZealandPost,   'active_shipping/carriers/new_zealand_post'
-ActiveShipping::Carriers.register :CanadaPostPWS,    'active_shipping/carriers/canada_post_pws'
-ActiveShipping::Carriers.register :Stamps,           'active_shipping/carriers/stamps'
-ActiveShipping::Carriers.register :AustraliaPost,    'active_shipping/carriers/australia_post'
