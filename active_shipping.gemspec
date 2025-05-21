@@ -21,14 +21,14 @@ Gem::Specification.new do |s|
 
 
   s.add_dependency("measured", ">= 2.0")
-  s.add_dependency("activesupport", ">= 4.2", "< 6.1")
+  s.add_dependency("activesupport")
   s.add_dependency("active_utils", "~> 3.3.1")
   s.add_dependency("nokogiri", ">= 1.6")
 
   s.add_development_dependency("minitest")
   s.add_development_dependency("minitest-reporters")
   s.add_development_dependency("rake")
-  s.add_development_dependency("mocha", "~> 1")
+  s.add_development_dependency("mocha")
   s.add_development_dependency("timecop")
   s.add_development_dependency("business_time")
   s.add_development_dependency("pry")
