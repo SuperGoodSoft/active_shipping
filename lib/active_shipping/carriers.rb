@@ -22,3 +22,4 @@ end
 
 ActiveShipping::Carriers.register :USPS,             'active_shipping/carriers/usps'
 ActiveShipping::Carriers.register :USPSReturns,      'active_shipping/carriers/usps_returns'
+ActiveShipping::Carriers.register :UPS,              'active_shipping/carriers/ups'
